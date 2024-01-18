@@ -26,9 +26,10 @@
                 <li>
                     <a>Visual Studo Code</a>
                     <ul>
-                        <li><a>Winget</a></li>
-                        <li><a>Chocolatey</a></li>
-                        <li><a>Scoop</a></li>
+                        <li><router-link to="/tools/vscode/manual">Manual</router-link></li>
+                        <li><router-link to="/tools/vscode/winget">Winget</router-link></li>
+                        <li><router-link to="/tools/vscode/choco">Chocolatey</router-link></li>
+                        <li><router-link to="/tools/vscode/scoop">Scoop</router-link></li>
                     </ul>
                 </li>
                 <li>

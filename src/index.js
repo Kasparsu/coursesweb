@@ -17,6 +17,12 @@ import TerminalChoco from './pages/Tools/Terminal/Choco.vue';
 import TerminalScoop from './pages/Tools/Terminal/Scoop.vue';
 import TerminalMsstore from './pages/Tools/Terminal/Msstore.vue';
 import TerminalGithub from './pages/Tools/Terminal/Github.vue';
+import VscodeWinget from './pages/Tools/Vscode/Winget.vue';
+import VscodeChoco from './pages/Tools/Vscode/Choco.vue';
+import VscodeScoop from './pages/Tools/Vscode/Scoop.vue';
+import VscodeManual from './pages/Tools/Vscode/Manual.vue';
+
+
 const routes = [
     {path: '/', component: Home, name: 'Home'},
     {path: '/tools/windows', component: Windows, name: 'Windows'},
@@ -28,6 +34,10 @@ const routes = [
     {path: '/tools/terminal/scoop', component: TerminalScoop, name: 'Terminal Scoop'},
     {path: '/tools/terminal/github', component: TerminalGithub, name: 'Terminal Github'},
     {path: '/tools/terminal/msstore', component: TerminalMsstore, name: 'Terminal Msstore'},
+    {path: '/tools/vscode/winget', component: VscodeWinget, name: 'VsCode Winget'},
+    {path: '/tools/vscode/choco', component: VscodeChoco, name: 'VsCode Choco'},
+    {path: '/tools/vscode/scoop', component: VscodeScoop, name: 'VsCode Scoop'},
+    {path: '/tools/vscode/manual', component: VscodeManual, name: 'VsCode Manual'},
 ];
 
 const router = VueRouter.createRouter({
